@@ -9,6 +9,7 @@ import { ContatoComponent } from './contato/contato.component';
 import { NossaVisaoComponent } from './nossa-visao/nossa-visao.component';
 import {RouterModule} from "@angular/router";
 import {ContatoModule} from "./contato/contato.module";
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [
@@ -20,11 +21,8 @@ import {ContatoModule} from "./contato/contato.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule,
     ContatoModule,
-    RouterModule.forRoot([
-
-    ])
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
