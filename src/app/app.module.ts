@@ -10,18 +10,19 @@ import { NossaVisaoComponent } from './nossa-visao/nossa-visao.component';
 import {RouterModule} from "@angular/router";
 import {ContatoModule} from "./contato/contato.module";
 import {AppRoutingModule} from "./app-routing.module";
+import {NossaVisaoModule} from "./nossa-visao/nossa-visao.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     QuemSomosComponent,
-    NossaVisaoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     ContatoModule,
+    NossaVisaoModule,
     AppRoutingModule
   ],
   providers: [],
